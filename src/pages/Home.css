@@ -1,0 +1,101 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  background-color: aquamarine;
+  width: 40vw;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-subcontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20%;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+.info-item > h4,
+.info-item > p {
+  margin: 0;
+}
+
+.item-heading {
+  color: blue;
+  font-size: x-large;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /* background-color: rgb(32, 184, 32); */
+  width: 80%;
+  height: 80px;
+  color: white;
+}
+
+.title {
+  color: rgb(255, 0, 0);
+}
+
+.item-content {
+  font-size: large;
+  width: 60%;
+  text-align: center;
+}
+
+.select {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.option {
+  font-size: large;
+}
+
+.bg-green {
+  background-color: rgb(32, 184, 32);
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.green {
+  color: rgb(32, 184, 32);
+}
+
+.red {
+  color: red;
+}
