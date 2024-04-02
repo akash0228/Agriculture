@@ -73,10 +73,11 @@
   text-align: center;
 }
 
-.select {
+.select-leaf {
   padding: 5px;
   background-color: white;
   border-radius: 5px;
+  width: 20%;
 }
 
 .option {
@@ -97,4 +98,8 @@
 
 .red {
   color: red;
+}
+
+.input-leaf {
+  margin-left: 90px;
 }

@@ -1,6 +1,32 @@
 .app {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.toggle {
+  background-color: grey;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.toggle_btn {
+  background: transparent;
+  width: 50%;
   height: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.active {
+  background-color: aqua;
 }
